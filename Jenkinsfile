@@ -1,4 +1,5 @@
 node {
-    jobDsl targets: ['jobs/dsl.groovy',
-           lookupStrategy: 'SEED_JOB']
+    stage('Build'){
+        jobDsl( targets: 'jobs/dsl.groovy', lookupStrategy: 'SEED_JOB')
+    }
 }
