@@ -1,4 +1,4 @@
-def githuburl = 'beerkeeper/python-ip-script'
+def githuburl = 'ronier-rodriguez/pythonTestRepo'
 job('DSL-generated-job') {
   scm {
     git {
